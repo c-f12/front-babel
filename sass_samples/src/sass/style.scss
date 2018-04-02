@@ -1,0 +1,9 @@
+header{
+    h1{
+        color: salmon;
+    }
+}
+
+main{
+    @import "_extras.scss";
+}
