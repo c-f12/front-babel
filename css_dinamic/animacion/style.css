@@ -1,0 +1,29 @@
+@keyframes colores{
+    0%{background-color: crimson}
+    25%{background-color: mediumslateblue}
+    50%{background-color: olive}
+    100%{background-color: deeppink}
+}
+
+@keyframes posicion{
+    0%{top: 10rem; left: -10rem}
+    25%{left: 5rem; top: 7rem}
+    50%{left: 10rem; top: 5rem}
+    75%{left: 20rem}
+    100%{left: 50rem; top: 2rem}
+}
+
+div.animado{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    background-color: coral;
+    /* animation: colores 3s ease-in; */
+    animation: colores 5s, posicion 5s;
+    /* animation-name: colores posicion;
+    animation-duration: 5s; */
+    /* animation-direction: alternate; */
+    animation-iteration-count: infinite;
+}
