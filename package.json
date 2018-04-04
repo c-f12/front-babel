@@ -1,0 +1,23 @@
+{
+  "name": "front-babel",
+  "version": "1.0.0",
+  "description": "Desarrollo Front End Avanzado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-f12/front-babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-f12/front-babel/issues"
+  },
+  "homepage": "https://github.com/c-f12/front-babel#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
